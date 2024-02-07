@@ -1,0 +1,490 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(214, 214, 214);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.nav {
+  background-color: lightseagreen;
+  height: 50px;
+  position: fixed;
+  width: 100%;
+  box-shadow: 0px 1px 7px 0px rgb(143, 143, 143);
+}
+
+.containernav {
+  width: 80%;
+  margin: auto;
+}
+
+h1 {
+  display: inline-block;
+}
+
+h1 a {
+  color: whitesmoke;
+  text-decoration: none;
+}
+
+.nav .containernav ul {
+  float: right;
+}
+
+.nav .containernav ul li {
+  display: inline-block;
+  padding-top: 14px;
+  padding-bottom: 14px;
+}
+
+.nav .containernav ul li a {
+  padding: 15px;
+  text-decoration: none;
+  color: whitesmoke;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.nav .containernav ul li a:hover {
+  background-color: rgb(24, 151, 145);
+  border-radius: 20px;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  background-color: rgba(245, 245, 245, 0.604);
+}
+
+.container .foto {
+  background-image: url(../img/juice.jpg);
+  background-size: cover;
+  height: 500px;
+  border-bottom: 5px solid lightseagreen;
+  text-align: center;
+}
+
+.container .foto h1 {
+  margin-top: 200px;
+  font-size: 40px;
+  color: whitesmoke;
+}
+
+.konten {
+  padding: 25px;
+  text-align: center;
+}
+
+.konten .menu {
+  float: left;
+  padding: 20px;
+}
+
+.konten .menu .jusmangga {
+  background-color: whitesmoke;
+  height: 325px;
+  display: inline-block;
+  width: 300px;
+  margin-right: 26px;
+  padding: 20px;
+  box-sizing: border-box;
+  margin-bottom: 30px;
+  box-shadow: 0px 1px 7px 0px rgb(143, 143, 143);
+}
+
+.jusmangga .fotojusmangga {
+  background-image: url(../img/jusmangga.jpg);
+  background-size: cover;
+  height: 200px;
+  margin: auto;
+  width: 250px;
+  border: 5px solid lightseagreen;
+  background-position: -23px 0;
+}
+
+.jusmangga a {
+  text-decoration: none;
+  background-color: lightseagreen;
+  color: whitesmoke;
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 20px;
+}
+
+.konten .menu .jusalpukat {
+  background-color: whitesmoke;
+  height: 325px;
+  display: inline-block;
+  width: 300px;
+  margin-right: 26px;
+  padding: 20px;
+  box-sizing: border-box;
+  margin-bottom: 30px;
+  box-shadow: 0px 1px 7px 0px rgb(143, 143, 143);
+}
+
+.jusalpukat .fotojusalpukat {
+  background-image: url(../img/jusalpukat.jpg);
+  background-size: cover;
+  height: 200px;
+  margin: auto;
+  width: 250px;
+  border: 5px solid lightseagreen;
+  background-position: 0 -100px;
+}
+
+.jusalpukat a {
+  text-decoration: none;
+  background-color: lightseagreen;
+  color: whitesmoke;
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 20px;
+}
+
+.konten .menu .jusjambu {
+  background-color: whitesmoke;
+  height: 325px;
+  display: inline-block;
+  width: 300px;
+  margin-right: 26px;
+  padding: 20px;
+  box-sizing: border-box;
+  margin-bottom: 30px;
+  box-shadow: 0px 1px 7px 0px rgb(143, 143, 143);
+}
+
+.jusjambu .fotojusjambu {
+  background-image: url(../img/jusjambu.jpg);
+  background-size: cover;
+  height: 200px;
+  margin: auto;
+  width: 250px;
+  border: 5px solid lightseagreen;
+  background-position: -70px 0;
+}
+
+.jusjambu a {
+  text-decoration: none;
+  background-color: lightseagreen;
+  color: whitesmoke;
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 20px;
+}
+
+.konten .menu .jusapel {
+  background-color: whitesmoke;
+  height: 325px;
+  display: inline-block;
+  width: 300px;
+  margin-right: 26px;
+  padding: 20px;
+  box-sizing: border-box;
+  margin-bottom: 30px;
+  box-shadow: 0px 1px 7px 0px rgb(143, 143, 143);
+}
+
+.jusapel .fotojusapel {
+  background-image: url(../img/jusapel.jpg);
+  background-size: cover;
+  height: 200px;
+  margin: auto;
+  width: 250px;
+  border: 5px solid lightseagreen;
+  background-position: 20px -15px;
+}
+
+.jusapel a {
+  text-decoration: none;
+  background-color: lightseagreen;
+  color: whitesmoke;
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 20px;
+}
+
+.konten .menu .jusstrawberry {
+  background-color: whitesmoke;
+  height: 325px;
+  display: inline-block;
+  width: 300px;
+  margin-right: 26px;
+  padding: 20px;
+  box-sizing: border-box;
+  margin-bottom: 30px;
+  box-shadow: 0px 1px 7px 0px rgb(143, 143, 143);
+}
+
+.jusstrawberry .fotojusstrawberry {
+  background-image: url(../img/jusstrawberry.jpg);
+  background-size: cover;
+  height: 200px;
+  margin: auto;
+  width: 250px;
+  border: 5px solid lightseagreen;
+  background-position: 40px 0;
+}
+
+.jusstrawberry a {
+  text-decoration: none;
+  background-color: lightseagreen;
+  color: whitesmoke;
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 20px;
+}
+
+.konten .menu .jusnaga {
+  background-color: whitesmoke;
+  height: 325px;
+  display: inline-block;
+  width: 300px;
+  margin-right: 26px;
+  padding: 20px;
+  box-sizing: border-box;
+  margin-bottom: 30px;
+  box-shadow: 0px 1px 7px 0px rgb(143, 143, 143);
+}
+
+.jusnaga .fotojusnaga {
+  background-image: url(../img/jusnaga.jpg);
+  background-size: cover;
+  height: 200px;
+  margin: auto;
+  width: 250px;
+  border: 5px solid lightseagreen;
+  background-position: 50px -20px;
+}
+
+.jusnaga a {
+  text-decoration: none;
+  background-color: lightseagreen;
+  color: whitesmoke;
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 20px;
+}
+
+.menu a:hover {
+  background-color: rgb(24, 151, 145);
+  font-size: 15px;
+}
+
+footer {
+  background-color: lightseagreen;
+  text-align: center;
+  padding: 20px;
+}
+
+footer h4 {
+  color: whitesmoke;
+}
+
+.container .fotomangga {
+  background-image: url(../img/jusmangga.jpg);
+  background-size: cover;
+  background-position: -80px 0;
+  width: 600px;
+  height: 500px;
+  border: 5px solid lightseagreen;
+  text-align: center;
+  margin: auto;
+}
+
+.container .fotoalpukat {
+  background-image: url(../img/jusalpukat.jpg);
+  background-size: cover;
+  background-position: 0 -1000px;
+  width: 600px;
+  height: 500px;
+  border: 5px solid lightseagreen;
+  text-align: center;
+  margin: auto;
+}
+
+.container .fotoapel {
+  background-image: url(../img/jusapel.jpg);
+  background-size: cover;
+  background-position: -80px 0;
+  width: 600px;
+  height: 500px;
+  border: 5px solid lightseagreen;
+  text-align: center;
+  margin: auto;
+}
+
+.container .fotojambu {
+  background-image: url(../img/jusjambu.jpg);
+  background-size: cover;
+  background-position: -180px 20px;
+  width: 600px;
+  height: 500px;
+  border: 5px solid lightseagreen;
+  text-align: center;
+  margin: auto;
+}
+
+.container .fotonaga {
+  background-image: url(../img/jusnaga.jpg);
+  background-size: cover;
+  background-position: 0 0;
+  width: 600px;
+  height: 500px;
+  border: 5px solid lightseagreen;
+  text-align: center;
+  margin: auto;
+}
+
+.container .fotostrawberry {
+  background-image: url(../img/jusstrawberry.jpg);
+  background-size: cover;
+  background-position: 95px 0;
+  width: 600px;
+  height: 500px;
+  border: 5px solid lightseagreen;
+  text-align: center;
+  margin: auto;
+}
+
+.clear {
+  clear: left;
+}
+
+.center h1 {
+  text-align: center;
+  padding: 0 0 20px 0;
+  border-bottom: 1px solid silver;
+}
+
+.center form {
+  padding: 0 40px;
+  box-sizing: border-box;
+}
+
+form .txt-field {
+  position: relative;
+  border-bottom: 2px solid #adadad;
+  margin: 30px 0;
+}
+
+.txt-field input {
+  width: 100%;
+  padding: 0 5px;
+  height: 40px;
+  font-size: 16px;
+  border: none;
+  background: none;
+  outline: none;
+}
+
+.txt-field label {
+  position: absolute;
+  top: 50%;
+  left: 5px;
+  color: #adadad;
+  transform: translateY(-50%);
+  font-size: 16px;
+  pointer-events: none;
+  transition: 0.5s;
+}
+
+.txt-field span::before {
+  content: "";
+  position: absolute;
+  top: 40px;
+  width: 100%;
+  height: 2px;
+  background: lightseagreen;
+  transition: 0.5s;
+}
+
+.txt-field input:focus ~ label,
+.txt-field input:valid ~ label {
+  top: -5px;
+  color: lightseagreen;
+}
+
+.txt-field input:focus ~ span::before,
+.txt-field input:valid ~ span::before {
+  width: 100%;
+}
+
+input[type="submit"] {
+  width: 100%;
+  height: 50px;
+  border: 1px solid;
+  background: lightseagreen;
+  border-radius: 25px;
+  font-size: 18px;
+  color: #e9f4fb;
+  font-weight: 700;
+  cursor: pointer;
+  outline: none;
+}
+
+input[type="submit"]:hover {
+  border-color: greenyellow;
+  transition: 0.5s;
+}
+
+.signup_link {
+  margin: 30px 0;
+  text-align: center;
+  font: 16px;
+  color: #666666;
+}
+
+.signup_link a {
+  color: #2691d9;
+  text-decoration: none;
+}
+
+.signup_link a:hover {
+  text-decoration: underline;
+}
+
+.primary-btn {
+  line-height: 40px;
+  padding: 0 40px;
+  border-radius: 20px;
+  background: transparent;
+  border: 1px solid lightseagreen;
+  color: #222222;
+  display: inline-block;
+  font-weight: 600;
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+}
+
+.primary-btn:focus {
+  outline: none;
+}
+
+.primary-btn.banner-btn {
+  color: lightseagreen;
+  margin-top: 60px;
+}
+
+.primary-btn span {
+  margin-left: 15px;
+}
+
+.primary-btn:hover {
+  background: lightseagreen;
+  color: #fff;
+  box-shadow: 0px 10px 20px 0px rgba(60, 64, 143, 0.2);
+}
